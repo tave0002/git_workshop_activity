@@ -13,10 +13,11 @@ set CLOCK to 50 Hz
 
 // Complete some polling task
 
+
 val = readPin(4);
+val = val + 2;
 printf("Val is %d", val);
-val = val-10;
-//polling done
+
 
 << Polling task >> // Aaron completed polling task
 
